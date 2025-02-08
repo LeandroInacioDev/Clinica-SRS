@@ -1,0 +1,21 @@
+@import url("../style/reset.css");
+@import url("../style/cabecalho.css");
+@import url("../style/consultas.css");
+
+:root {
+    --fonte-principal: "Montserrat", serif;
+    --cor-fonte-principal: #464646;
+    --cor-fonte-secundaria: #A3A3A3;
+    --cor-fundo: #F8F4FF;
+    --cor-branco: #FFFFFF;
+    --cor-botao: #FFB050;
+    --cor-botao-endereco: #4894ff;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-principal);
+    color: var(--cor-fonte-principal);
+    font-size: 14px;
+    font-weight: 500;
+}

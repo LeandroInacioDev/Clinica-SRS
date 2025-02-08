@@ -1,0 +1,89 @@
+.consultas__dia__titulo, .paciente__nome {
+    font-weight: 700;
+}
+
+.consultas__dia__titulo {
+    margin-left: 1em;
+    margin-top: 1em;
+}
+
+.consultas__dia, .bloco__paciente {
+    padding: 1em;
+}
+
+.consultas__dia {
+    display: flex;
+    flex-direction: column;
+}
+
+.consultas__dia__titulo {
+    font-size: 16px;
+}
+
+.consultas__dia__bloco {
+    background-color: var(--cor-branco);
+    border-radius: 8px;
+}
+
+.paciente__info, .bloco__ligacao, .consultas__dia {
+    gap: 1em;
+}
+
+.info__diversos, .paciente__atendimento {
+    gap: 0.5em;
+}
+
+.bloco__paciente, .paciente__info, .paciente__atendimento, .ligacao__botoes {
+    display: flex;
+    align-items: center;
+}
+
+.bloco__paciente, .ligacao__botoes {
+    justify-content: space-between;
+}
+
+.paciente__imagem {
+    width: 32px;
+    border-radius: 100%;
+}
+
+.info__diversos {
+    display: flex;
+    flex-direction: column;
+}
+
+.paciente__tipo-consulta {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.bloco__ligacao {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid var(--cor-fonte-secundaria);
+    padding: 1em;
+}
+
+.ligacao__hora {
+    font-size: 12px;
+}
+
+.botao__video, .botao__audio, .botao__endereco {
+    text-align: center;
+    background-color: var(--cor-botao);
+    color: var(--cor-branco);
+    border: 0;
+    border-radius: 8px;
+    padding: 1em 2em;
+}
+
+.botao__audio {
+    background-color: transparent;
+    color: var(--cor-fonte-principal);
+    border: 1px solid var(--cor-fonte-secundaria);
+}
+
+.botao__endereco {
+    background-color: var(--cor-botao-endereco);
+    width: 100%;
+}
