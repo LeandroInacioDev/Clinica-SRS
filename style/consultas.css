@@ -1,3 +1,7 @@
+.consultas {
+    margin-bottom: 17%;
+    position: relative;
+}
 .consultas__dia__titulo, .paciente__nome {
     font-weight: 700;
 }
@@ -86,4 +90,20 @@
 .botao__endereco {
     background-color: var(--cor-botao-endereco);
     width: 100%;
+}
+
+.botao__flutuante {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-image: url("../assets/maisicone.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: var(--cor-botao-endereco);
+    border: none;
+    position: fixed;
+    bottom: 150px;
+    left: 84%;
+    filter: drop-shadow(0 3px 6px #4894FF90);
+
 }
